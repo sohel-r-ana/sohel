@@ -1,0 +1,101 @@
+body
+{
+    background-color: rgb(99, 99, 99);
+}
+.one
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(73, 73, 73);
+    position: absolute;
+    left: 34%;              cursor:help;
+    top: 20%;overflow: hidden;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.a
+{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black, 0 0 10px black;
+    position: absolute;
+    left: -200px;
+    top: 75px;
+    transform: rotate(-45deg);
+    animation: ani 20s ;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    cursor:col-resize;
+}
+@keyframes ani 
+{
+    0%{left: -31px;}
+    20%{left: -31px;}
+    100%{left: -205px;}
+}
+.b
+{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 10px 0 10px black,0 0 10px black;
+    position: absolute;
+   left: 350px;
+    top: 75px;
+    transform: rotate(45deg);
+    animation: anim 20s ;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    cursor:col-resize;
+}
+@keyframes anim
+{
+    0%{ left: 180px; }
+    20%{ left: 180px;}
+    100%{ left: 350px;}
+        
+}
+.c
+{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 0 10px black,0 0 10px black;
+    position: absolute;
+   left: 74px;
+    top: -200px;
+    transform: rotate(45deg);
+    animation: anima 20s ;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    cursor:col-resize;
+}  
+@keyframes anima
+{
+    0%{ top: -33px; }
+    20%{ top: -33px;}
+    100%{ top: -200px;}
+}
+.d
+{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 10px 0 10px black,0 0 10px black;
+    position: absolute;
+   left: 73px;
+    top: 350px;
+    transform: rotate(45deg);
+    animation: animaa 20s ;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    cursor:col-resize;
+}  
+@keyframes animaa
+{
+    0%{ top: 180px; }
+    20%{ top: 180px;}
+    100%{ top: 350px;}
+}
